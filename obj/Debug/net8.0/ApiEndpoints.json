@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "MyBookingApp.MyBookingApp.Api.Controller.BookingController",
+    "Method": "Book",
+    "RelativePath": "api/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MyBookingApp.MyBookingApp.Api.Contract.BookRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyBookingApp.MyBookingApp.Api.Controller.BookingController",
+    "Method": "Cancel",
+    "RelativePath": "api/cancel/{bookingId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyBookingApp.MyBookingApp.Api.Controller.UploadController",
+    "Method": "UploadInventory",
+    "RelativePath": "api/Upload/inventory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyBookingApp.MyBookingApp.Api.Controller.UploadController",
+    "Method": "UploadMembers",
+    "RelativePath": "api/Upload/members",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
